@@ -1,2 +1,138 @@
 @charset "UTF-8";
 /* CSS Document */
+* {
+  box-sizing: border-box;
+}
+body {
+  background: grey;
+  width: 100%;
+  color: beige;
+}
+
+/* HEADER STYLES */
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 2.5px beige;
+  width: 100%;
+  background: #006680;
+}
+.header a {
+  text-decoration: none;
+}
+.header h1 {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  color: beige;
+  font-size: 24px;
+  letter-spacing: 0.7px;
+  padding: 20px 0 20px 45px;
+  cursor: pointer;
+}
+.header span {
+  color: #004d66;
+  font-size: 27px;
+}
+.header nav {
+  width: 35%;
+  margin-right: 50px;
+  font-family: "Roboto Condensed";
+}
+.header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 21px;
+  color: beige;
+}
+.header nav ul li {
+  cursor: pointer;
+}
+/* END HEADER STYLES */
+.spacer {
+  height: 70px;
+}
+/* START HOMEPAGE STYLES */
+#home {
+  background: #002e4d;
+  height: 700px;
+}
+.home-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 30px;
+}
+.picture-section {
+  width: 33%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2.5px solid beige;
+  border-radius: 10px;
+  height: 600px;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+.picture-section img {
+  height: 275px;
+  width: 275px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.picture-section h2 {
+  font-size: 40px;
+  margin-top: 25px;
+}
+.picture-section h3 {
+  font-size: 25px;
+  margin-top: 25px;
+}
+.picture-section h4 {
+  font-size: 20px;
+  margin-top: 25px;
+  line-height: 24px;
+  text-align: center;
+}
+.picture-section h5 {
+  margin-top: 10px;
+}
+.icons {
+  font-size: 50px;
+  margin-top: 25px;
+}
+.icons .fab {
+  color: beige;
+}
+.icons .fas {
+  color: beige;
+}
+.about-me {
+  text-align: left;
+  font-family: "Inter";
+  width: 50%;
+}
+.about-me h1 {
+  font-size: 56px;
+  margin-bottom: 25px;
+  color: #0099cc;
+}
+.about-me p {
+  font-size: 20px;
+  width: 700px;
+  line-height: 26px;
+}
+.contact-info {
+  margin-top: 35px;
+  width: 100%;
+}
+.contact-info span {
+  color: #0099cc;
+}
+.contact-info a {
+  color: beige;
+  text-decoration: none;
+}
