@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: grey;
+  background: #002e4d;
   width: 100%;
   color: beige;
 }
@@ -13,6 +13,33 @@ a {
 }
 
 /* HEADER STYLES */
+@keyframes header-load {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes section-load-left {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes section-load-right {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.onPage {
+  color: #004d66;
+}
 .header {
   position: fixed;
   display: flex;
@@ -21,6 +48,7 @@ a {
   border-bottom: solid 2.5px beige;
   width: 100%;
   background: #006680;
+  animation: header-load 0.8s ease-out;
 }
 .header a {
   text-decoration: none;
@@ -57,6 +85,7 @@ a {
 /* END HEADER STYLES */
 .spacer {
   height: 70px;
+  background: #002e4d;
 }
 /* START HOMEPAGE STYLES */
 #home {
@@ -80,6 +109,9 @@ a {
   height: 600px;
   padding-top: 10px;
   margin-left: 50px;
+  animation: section-load-left 1.5s ease-in-out;
+  animation-fill-mode: forwards;
+  transform: translateX(-200%);
 }
 .picture-section img {
   height: 275px;
@@ -118,6 +150,9 @@ a {
   text-align: left;
   font-family: "Inter";
   width: 50%;
+  animation: section-load-right 1.5s ease-in-out;
+  animation-fill-mode: forwards;
+  transform: translateX(200%);
 }
 .about-me h1 {
   font-size: 56px;
@@ -139,4 +174,28 @@ a {
 .contact-info a {
   color: beige;
   text-decoration: none;
+}
+/* END HOMEPAGE STYLES */
+
+/*START SKILLS STYLES */
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#skills h1 {
+  font-size: 56px;
+}
+/* END SKILLS STYLES */
+
+/* START PROJECTS STYLES */
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#projects h1 {
+  font-size: 56px;
 }
