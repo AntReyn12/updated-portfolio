@@ -11,6 +11,9 @@ body {
 a {
   color: beige;
 }
+.onPage {
+  color: #004d66;
+}
 
 /* HEADER STYLES */
 @keyframes header-load {
@@ -23,7 +26,7 @@ a {
 }
 @keyframes section-load-left {
   0% {
-    transform: translateX(-200%);
+    transform: translateX(-150%);
   }
   100% {
     transform: translateX(0);
@@ -31,15 +34,13 @@ a {
 }
 @keyframes section-load-right {
   0% {
-    transform: translateX(200%);
+    transform: translateX(150%);
   }
   100% {
     transform: translateX(0);
   }
 }
-.onPage {
-  color: #004d66;
-}
+
 .header {
   position: fixed;
   display: flex;
@@ -90,7 +91,7 @@ a {
 /* START HOMEPAGE STYLES */
 #home {
   background: #002e4d;
-  height: 700px;
+  height: 650px;
 }
 .home-container {
   display: flex;
@@ -111,7 +112,7 @@ a {
   margin-left: 50px;
   animation: section-load-left 1.5s ease-in-out;
   animation-fill-mode: forwards;
-  transform: translateX(-200%);
+  transform: translateX(-150%);
 }
 .picture-section img {
   height: 275px;
@@ -137,7 +138,7 @@ a {
   margin-top: 10px;
 }
 .icons {
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 25px;
 }
 .icons .fab {
@@ -146,13 +147,17 @@ a {
 .icons .fas {
   color: beige;
 }
+.icons .fas:hover,
+.icons .fab:hover {
+  transform: scale(1.25);
+}
 .about-me {
   text-align: left;
   font-family: "Inter";
   width: 50%;
   animation: section-load-right 1.5s ease-in-out;
   animation-fill-mode: forwards;
-  transform: translateX(200%);
+  transform: translateX(150%);
 }
 .about-me h1 {
   font-size: 56px;
