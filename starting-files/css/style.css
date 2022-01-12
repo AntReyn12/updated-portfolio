@@ -24,14 +24,7 @@ a {
     transform: translateY(0);
   }
 }
-@keyframes section-load-left {
-  0% {
-    transform: translateX(-150%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
+
 @keyframes section-load-right {
   0% {
     transform: translateX(150%);
@@ -110,9 +103,6 @@ a {
   height: 600px;
   padding-top: 10px;
   margin-left: 50px;
-  animation: section-load-left 1.5s ease-in-out;
-  animation-fill-mode: forwards;
-  transform: translateX(-150%);
 }
 .picture-section img {
   height: 275px;
