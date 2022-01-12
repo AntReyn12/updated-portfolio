@@ -8,6 +8,9 @@ body {
   width: 100%;
   color: beige;
 }
+a {
+  color: beige;
+}
 
 /* HEADER STYLES */
 .header {
@@ -47,8 +50,9 @@ body {
   font-size: 21px;
   color: beige;
 }
-.header nav ul li {
+.header nav ul li a:hover {
   cursor: pointer;
+  color: #004d66;
 }
 /* END HEADER STYLES */
 .spacer {
