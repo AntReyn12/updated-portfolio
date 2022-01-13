@@ -14,8 +14,7 @@ a {
 .onPage {
   color: #004d66;
 }
-
-/* HEADER STYLES */
+/* KEYFRAMES */
 @keyframes header-load {
   0% {
     transform: translateY(-100%);
@@ -25,15 +24,17 @@ a {
   }
 }
 
-@keyframes section-load-right {
+@keyframes about-me-load {
   0% {
-    transform: translateX(150%);
+    transform: translateY(-10px);
+    opacity: 0;
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(0px);
+    opacity: 1;
   }
 }
-
+/* HEADER STYLES */
 .header {
   position: fixed;
   display: flex;
@@ -41,8 +42,8 @@ a {
   justify-content: space-between;
   border-bottom: solid 2.5px beige;
   width: 100%;
-  background: #006680;
-  animation: header-load 0.8s ease-out;
+  background: #4293b9;
+  animation: header-load 0.7s ease-out;
 }
 .header a {
   text-decoration: none;
@@ -145,19 +146,24 @@ a {
   text-align: left;
   font-family: "Inter";
   width: 50%;
-  animation: section-load-right 1.5s ease-in-out;
-  animation-fill-mode: forwards;
-  transform: translateX(150%);
 }
 .about-me h1 {
   font-size: 56px;
   margin-bottom: 25px;
   color: #0099cc;
+  animation: about-me-load 0.6s ease-in 0.5s;
+  animation-fill-mode: forwards;
+  transform: translateY(-10px);
+  opacity: 0;
 }
 .about-me p {
   font-size: 20px;
   width: 700px;
   line-height: 26px;
+  animation: about-me-load 0.6s ease-in 1s;
+  animation-fill-mode: forwards;
+  transform: translateY(-10px);
+  opacity: 0;
 }
 .contact-info {
   margin-top: 35px;
