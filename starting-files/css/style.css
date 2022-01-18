@@ -363,8 +363,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 150px;
-  animation: contact-load 0.8s ease-in 0.1s;
+  margin-top: 115px;
+  animation: contact-load 0.7s ease-in 0.1s;
   animation-fill-mode: forwards;
   transform: translateY(-20px);
   opacity: 0;
@@ -375,7 +375,7 @@ a {
   border-radius: 10px;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
+  padding: 100px;
 }
 .contact-h1 {
   font-size: 50px;
