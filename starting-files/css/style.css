@@ -110,7 +110,6 @@ a {
 /* START HOMEPAGE STYLES */
 #home {
   background: #002e4d;
-  height: 650px;
 }
 .home-container {
   display: flex;
@@ -210,7 +209,6 @@ a {
 
 /*START SKILLS STYLES */
 #skills {
-  height: 700px;
   width: 100%;
 }
 .education-section {
