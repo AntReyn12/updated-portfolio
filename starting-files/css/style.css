@@ -64,14 +64,12 @@ a {
 }
 /* HEADER STYLES */
 .header {
-  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: solid 2.5px beige;
   width: 100%;
   background: #4293b9;
-  /* animation: header-load 0.7s ease-out; */
 }
 .header a {
   text-decoration: none;
