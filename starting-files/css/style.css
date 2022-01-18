@@ -110,6 +110,7 @@ a {
 /* START HOMEPAGE STYLES */
 #home {
   background: #002e4d;
+  padding-bottom: 20px;
 }
 .home-container {
   display: flex;
@@ -274,6 +275,7 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   display: flex;
+  padding-bottom: 20px;
 }
 .skills {
   width: 400px;
