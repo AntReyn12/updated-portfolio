@@ -33,6 +33,27 @@ a {
     opacity: 1;
   }
 }
+@keyframes skills-section-load {
+  0% {
+    transform: translateY(-15px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slow-fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes blink {
   from {
     border-color: transparent;
@@ -194,17 +215,12 @@ a {
   height: 700px;
   width: 100%;
 }
-#skills h1 {
-  font-size: 46px;
-  text-align: center;
-  padding-top: 20px;
-}
 .education-section {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 30px;
-  animation: about-me-load 0.8s ease-in;
+  animation: about-me-load 0.8s ease-in 0.5s;
   animation-fill-mode: forwards;
   transform: translateY(-10px);
   opacity: 0;
@@ -236,9 +252,26 @@ a {
   height: 1px;
   background-color: #0099cc;
   margin-top: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 1s steps(60, end) forwards 1s;
+}
+.education-h1 {
+  font-size: 46px;
+  text-align: center;
+  padding-top: 20px;
+  animation: slow-fade 1s ease-in 0.1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 .skills-h1 {
-  margin-bottom: 15px;
+  font-size: 46px;
+  text-align: center;
+  padding-top: 20px;
+  animation: slow-fade 1s ease-in 1.9s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 .skills-section {
   width: 100%;
@@ -255,37 +288,37 @@ a {
   padding: 26px 0;
 }
 .skills.one {
-  animation: about-me-load 0.6s ease-in 0.5s;
+  animation: about-me-load 0.6s ease-in 2.2s;
   animation-fill-mode: forwards;
   transform: translateY(-10px);
   opacity: 0;
 }
 .skills.two {
-  animation: about-me-load 0.6s ease-in 0.7s;
+  animation: about-me-load 0.6s ease-in 2.4s;
   animation-fill-mode: forwards;
   transform: translateY(-10px);
   opacity: 0;
 }
 .skills.three {
-  animation: about-me-load 0.6s ease-in 0.9s;
+  animation: about-me-load 0.6s ease-in 2.6s;
   animation-fill-mode: forwards;
   transform: translateY(-10px);
   opacity: 0;
 }
 .skills.four {
-  animation: about-me-load 0.6s ease-in 1.1s;
+  animation: about-me-load 0.6s ease-in 2.8s;
   animation-fill-mode: forwards;
   transform: translateY(-10px);
   opacity: 0;
 }
 .skills.five {
-  animation: about-me-load 0.6s ease-in 1.3s;
+  animation: about-me-load 0.6s ease-in 3s;
   animation-fill-mode: forwards;
   transform: translateY(-10px);
   opacity: 0;
 }
 .skills.six {
-  animation: about-me-load 0.6s ease-in 1.5s;
+  animation: about-me-load 0.6s ease-in 3.2s;
   animation-fill-mode: forwards;
   transform: translateY(-10px);
   opacity: 0;
