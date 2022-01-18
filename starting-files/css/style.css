@@ -211,12 +211,20 @@ a {
 #skills {
   width: 100%;
 }
+.education-h1 {
+  font-size: 46px;
+  text-align: center;
+  padding-top: 20px;
+  animation: slow-fade 1s ease-in 0.1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
 .education-section {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 30px;
-  animation: about-me-load 0.8s ease-in 0.5s;
+  animation: about-me-load 0.7s ease-in 0.5s;
   animation-fill-mode: forwards;
   transform: translateY(-10px);
   opacity: 0;
@@ -252,14 +260,6 @@ a {
   white-space: nowrap;
   width: 0;
   animation: typing 1s steps(60, end) forwards 1s;
-}
-.education-h1 {
-  font-size: 46px;
-  text-align: center;
-  padding-top: 20px;
-  animation: slow-fade 1s ease-in 0.1s;
-  opacity: 0;
-  animation-fill-mode: forwards;
 }
 .skills-h1 {
   font-size: 46px;
