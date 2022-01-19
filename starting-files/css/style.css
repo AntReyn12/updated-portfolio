@@ -345,13 +345,45 @@ a {
 
 /* START PROJECTS STYLES */
 #projects {
+  width: 100%;
+}
+.projects-container {
+  display: flex;
+  flex-direction: row;
+}
+.projects-header {
+  display: flex;
+  margin-top: 60px;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 42px;
+  width: 25%;
+}
+.websites-container {
+  width: 75%;
+  margin-top: 20px;
+}
+.websites {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.image {
+  width: 300px;
+  background-color: beige;
+  padding: 100px;
+}
+.website-description {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  flex-direction: column;
 }
-#projects h1 {
-  font-size: 56px;
+.description-name {
+  font-size: 30px;
+}
+.description {
+  font-size: 22px;
+  padding-top: 15px;
 }
 /* END PROJECTS STYLES */
 
