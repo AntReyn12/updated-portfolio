@@ -346,32 +346,44 @@ a {
 /* START PROJECTS STYLES */
 #projects {
   width: 100%;
-}
-.projects-container {
   display: flex;
   flex-direction: row;
 }
 .projects-header {
   display: flex;
-  margin-top: 60px;
-  align-items: flex-start;
   justify-content: center;
+  padding-top: 100px;
   font-size: 42px;
-  width: 25%;
+  width: 30%;
+  color: #0099cc;
+  border-right: 2px solid #0099cc;
+  border-bottom: 2px solid #0099cc;
+}
+.tech-website-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.tech-header {
+  text-align: center;
+  font-size: 42px;
+  margin-top: 60px;
 }
 .websites-container {
-  width: 75%;
-  margin-top: 20px;
+  margin-top: 40px;
 }
-.websites {
+.website {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 25px;
 }
 .image {
   width: 300px;
   background-color: beige;
   padding: 100px;
+  box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.5);
 }
 .website-description {
   display: flex;
