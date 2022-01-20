@@ -4,15 +4,15 @@
   box-sizing: border-box;
 }
 body {
-  background: #002e4d;
+  background: #a0aecd;
   width: 100%;
-  color: beige;
+  color: #f7f4e9;
 }
 a {
-  color: beige;
+  color: #1d1d2c;
 }
 .onPage {
-  color: #004d66;
+  color: #a0aecd;
 }
 /* KEYFRAMES */
 @keyframes typing {
@@ -69,7 +69,7 @@ a {
     border-color: transparent;
   }
   to {
-    border-color: beige;
+    border-color: #f7f4e9;
   }
 }
 /* HEADER STYLES */
@@ -77,9 +77,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: solid 2.5px beige;
   width: 100%;
-  background: #4293b9;
+  background: #f7f4e9;
+  border-radius: 10px 10px 0 0;
 }
 .header a {
   text-decoration: none;
@@ -87,14 +87,14 @@ a {
 .header h1 {
   font-family: "Roboto Condensed";
   font-weight: bold;
-  color: beige;
+  color: #1d1d2c;
   font-size: 24px;
   letter-spacing: 0.7px;
   padding: 20px 0 20px 45px;
   cursor: pointer;
 }
 .header span {
-  color: #004d66;
+  color: #a0aecd;
   font-size: 27px;
 }
 .header nav {
@@ -106,21 +106,20 @@ a {
   display: flex;
   justify-content: space-between;
   font-size: 21px;
-  color: beige;
+  color: #1d1d2c;
+}
+.header nav ul li {
+  cursor: pointer;
 }
 .header nav ul li a:hover {
-  cursor: pointer;
-  color: #004d66;
+  color: #a0aecd;
 }
 /* END HEADER STYLES */
-.spacer {
-  height: 70px;
-  background: #002e4d;
-}
 /* START HOMEPAGE STYLES */
 #home {
-  background: #002e4d;
+  background: #1d1d2c;
   padding-bottom: 20px;
+  border-radius: 0 0 10px 10px;
 }
 .home-container {
   display: flex;
@@ -134,7 +133,7 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 2.5px solid beige;
+  border: 2.5px solid #a0aecd;
   border-radius: 10px;
   height: 600px;
   padding-top: 10px;
@@ -169,10 +168,10 @@ a {
   margin-top: 25px;
 }
 .icons .fab {
-  color: beige;
+  color: #a0aecd;
 }
 .icons .fas {
-  color: beige;
+  color: #a0aecd;
 }
 .icons .fas:hover,
 .icons .fab:hover {
@@ -188,8 +187,8 @@ a {
 }
 .about-me h1 {
   font-size: 56px;
-  margin-bottom: 25px;
-  color: #0099cc;
+  margin-bottom: 15px;
+  color: #a0aecd;
   overflow: hidden;
   border-right: 0.1em solid beige;
   white-space: nowrap;
@@ -210,7 +209,7 @@ a {
   width: 100%;
 }
 .contact-info span {
-  color: #0099cc;
+  color: #a0aecd;
 }
 .contact-info a {
   color: beige;
@@ -221,6 +220,8 @@ a {
 /*START SKILLS STYLES */
 #skills {
   width: 100%;
+  background-color: #1d1d2c;
+  border-radius: 0 0 10px 10px;
 }
 .education-h1 {
   font-size: 46px;
@@ -256,16 +257,16 @@ a {
 }
 .location {
   text-align: center;
-  color: #0099cc;
+  color: #a0aecd;
   font-size: 19px;
   line-height: 24px;
 }
 .location a {
-  color: #0099cc;
+  color: #a0aecd;
 }
 .skills-spacer {
   height: 1px;
-  background-color: #0099cc;
+  background-color: #a0aecd;
   margin-top: 35px;
   overflow: hidden;
   white-space: nowrap;
@@ -339,15 +340,17 @@ a {
 .skills .fas {
   font-size: 54px;
   padding-bottom: 15px;
-  color: #0099cc;
+  color: #a0aecd;
 }
 /* END SKILLS STYLES */
 
 /* START PROJECTS STYLES */
 #projects {
   width: 100%;
+  background-color: #1d1d2c;
   display: flex;
   flex-direction: row;
+  border-radius: 0 0 10px 10px;
 }
 .projects-header {
   display: flex;
@@ -355,9 +358,8 @@ a {
   padding-top: 100px;
   font-size: 42px;
   width: 30%;
-  color: #0099cc;
-  border-right: 2px solid #0099cc;
-  border-bottom: 2px solid #0099cc;
+  color: #a0aecd;
+  border-right: 2px solid #a0aecd;
 }
 .tech-website-container {
   display: flex;
@@ -372,6 +374,7 @@ a {
 }
 .websites-container {
   margin-top: 40px;
+  padding-bottom: 20px;
 }
 .website {
   display: flex;
@@ -402,12 +405,15 @@ a {
 /* START CONTACT STYLES */
 #contact {
   width: 100%;
+  background-color: #1d1d2c;
+  border-radius: 0 0 10px 10px;
 }
 .contact-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 115px;
+  padding-top: 115px;
+  padding-bottom: 115px;
   animation: contact-load 0.7s ease-in 0.1s;
   animation-fill-mode: forwards;
   transform: translateY(-20px);
@@ -423,7 +429,7 @@ a {
 }
 .contact-h1 {
   font-size: 50px;
-  color: #0099cc;
+  color: #a0aecd;
   text-align: center;
   padding-bottom: 25px;
 }
@@ -438,9 +444,9 @@ a {
   font-size: 24px;
   padding: 20px;
   width: 25%;
-  color: #0099cc;
+  color: #a0aecd;
   background-color: transparent;
-  border: 2px solid #068ec1;
+  border: 2px solid #a0aecd;
   border-radius: 10px;
   cursor: pointer;
 }
