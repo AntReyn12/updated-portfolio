@@ -7,12 +7,14 @@ body {
   background: #a0aecd;
   width: 100%;
   color: #f7f4e9;
+  padding: 15px;
 }
 a {
   color: #1d1d2c;
 }
 .onPage {
   color: #a0aecd;
+  border-bottom: 3px solid #a0aecd;
 }
 /* KEYFRAMES */
 @keyframes typing {
@@ -77,6 +79,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
   width: 100%;
   background: #f7f4e9;
   border-radius: 10px 10px 0 0;
@@ -97,23 +100,26 @@ a {
   color: #a0aecd;
   font-size: 27px;
 }
-.header nav {
-  width: 35%;
-  margin-right: 50px;
-  font-family: "Roboto Condensed";
-}
-.header nav ul {
-  display: flex;
-  justify-content: space-between;
-  font-size: 21px;
+.nav {
   color: #1d1d2c;
+  display: flex;
+  width: 37.5%;
 }
-.header nav ul li {
+.nav h2 {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 20px;
   cursor: pointer;
+  text-align: center;
 }
-.header nav ul li a:hover {
+.nav h2 a {
+  padding: 22px 21px 19px 21px;
+}
+.nav h2 a:hover {
   color: #a0aecd;
+  background-color: rgba(60, 60, 60, 0.1);
 }
+
 /* END HEADER STYLES */
 /* START HOMEPAGE STYLES */
 #home {
