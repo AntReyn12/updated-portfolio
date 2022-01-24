@@ -362,12 +362,25 @@ a {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding-left: 50px;
+}
+.tech-header.first {
+  text-align: center;
+  font-size: 58px;
+  margin-top: 60px;
+  color: #a0aecd;
 }
 .tech-header {
-  text-align: center;
-  font-size: 42px;
-  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 58px;
+  margin-top: 30px;
+  color: #a0aecd;
+}
+.tech-header-line {
+  width: 400px;
+  height: 2px;
+  background-color: #a0aecd;
+  margin: 30px 30px 0 30px;
 }
 .websites-container {
   margin-top: 40px;
@@ -375,27 +388,43 @@ a {
 }
 .website {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 25px;
-}
-.image {
-  width: 300px;
-  background-color: beige;
-  padding: 100px;
-  box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.5);
-}
-.website-description {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
 }
 .description-name {
   font-size: 30px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 35px;
+}
+.website-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.image:hover {
+  transform: scale(1.02);
+}
+.image {
+  background-size: cover;
+  width: 800px;
+  padding: 5px;
+  box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
 }
 .description {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
   font-size: 22px;
-  padding-top: 15px;
+  padding: 35px 0 10px 0;
 }
 /* END PROJECTS STYLES */
 
