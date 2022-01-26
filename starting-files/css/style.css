@@ -381,15 +381,19 @@ a {
 .tech-header {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 58px;
   margin-top: 30px;
   color: #a0aecd;
+}
+.tech-header h1 {
+  text-align: center;
 }
 .tech-header-line {
   width: 400px;
   height: 2px;
   background-color: #a0aecd;
-  margin: 30px 30px 0 30px;
+  margin: 0 30px;
 }
 .websites-container {
   margin-top: 40px;
@@ -421,7 +425,10 @@ a {
 }
 .image {
   background-size: cover;
-  width: 800px;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
   padding: 5px;
   box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -508,8 +515,8 @@ a {
 }
 /* END CONTACT STYLES */
 /* TABLET MEDIA QUERIES */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /*HOMEPAGE*/
+@media screen and (max-device-width: 1024px) {
+  /* HOMEPAGE */
   .header {
     flex-direction: column;
   }
@@ -537,7 +544,8 @@ a {
     padding: 22px 21px 8px 21px;
   }
   .picture-section {
-    justify-content: center;
+    padding-top: 20px;
+    margin-left: 30px;
   }
   .picture-section img {
     height: 200px;
@@ -567,5 +575,72 @@ a {
   .about-me p {
     font-size: 16px;
     line-height: 21px;
+  }
+  .contact-info {
+    margin-top: 20px;
+  }
+  /* SKILLS */
+  .education-section {
+    padding-right: 20px;
+  }
+  .education-h1 {
+    font-size: 40px;
+  }
+  .degree {
+    font-size: 18px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .degree h2 {
+    padding: 0;
+  }
+  .degree .fa-graduation-cap {
+    font-size: 34px;
+    padding-bottom: 15px;
+  }
+  .location {
+    font-size: 16px;
+  }
+  .skills .fab,
+  .skills .fas {
+    font-size: 40px;
+  }
+  .skills {
+    width: 300px;
+    font-size: 24px;
+  }
+  /* PROJECTS */
+  .tech-header.first {
+    font-size: 45px;
+  }
+  .tech-header {
+    font-size: 45px;
+  }
+  .description-name {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 24px;
+  }
+  .tools {
+    font-size: 20px;
+  }
+  /* CONTACT */
+  .contact-container {
+    padding: 115px 55px;
+  }
+  .contact-box {
+    padding: 50px;
+  }
+  .contact-h1 {
+    font-size: 40px;
+  }
+  .contact-p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .button {
+    font-size: 20px;
+    padding: 10px;
   }
 }
