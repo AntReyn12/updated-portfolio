@@ -196,7 +196,7 @@ a {
   font-family: "Inter";
   width: 50%;
 }
-.about-me-div {
+.about-me-h1 {
   width: 270px;
 }
 .about-me h1 {
@@ -566,7 +566,7 @@ a {
   .icons {
     font-size: 30px;
   }
-  .about-me-div {
+  .about-me-h1 {
     width: 195px;
   }
   .about-me h1 {
@@ -642,5 +642,56 @@ a {
   .button {
     font-size: 20px;
     padding: 10px;
+  }
+}
+@media screen and (max-device-width: 540px) {
+  .nav h2 {
+    padding: 0;
+  }
+  #home {
+    display: flex;
+    justify-content: center;
+  }
+  .home-container {
+    flex-direction: column;
+    width: 80%;
+  }
+  .picture-section {
+    width: 100%;
+    margin: 0;
+  }
+  .picture-section img {
+    height: 150px;
+    width: 150px;
+  }
+  .picture-section h2,
+  .picture-section h3,
+  .picture-section h4,
+  .icons {
+    margin-top: 15px;
+  }
+  .icons {
+    margin-bottom: 15px;
+  }
+  .about-me {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-me-p {
+    width: 100%;
+  }
+  .skills {
+    width: 150px;
+    text-align: center;
+  }
+  .contact-p {
+    line-height: 24px;
+  }
+  .button {
+    padding: 10px 20px;
+    width: 50%;
   }
 }
