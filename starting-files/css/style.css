@@ -694,4 +694,210 @@ a {
     padding: 10px 20px;
     width: 50%;
   }
+  .skills .fab,
+  .skills .fas {
+    font-size: 30px;
+    padding-bottom: 8px;
+  }
+  .skills {
+    font-size: 20px;
+  }
+  .skills p {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+}
+@media screen and (max-device-width: 475px) {
+  body {
+    padding: 0;
+  }
+  .header h1 {
+    font-size: 19px;
+    letter-spacing: 0.2px;
+    padding-bottom: 15px;
+  }
+  .header h1 span {
+    font-size: 19px;
+  }
+  .nav h2 {
+    font-size: 14px;
+  }
+  .nav h2 a {
+    padding: 22px 15px 8px 15px;
+  }
+  .home-container {
+    padding-top: 15px;
+  }
+  .picture-section img {
+    height: 125px;
+    width: 125px;
+  }
+  .picture-section h2 {
+    font-size: 24px;
+  }
+  .picture-section h3 {
+    font-size: 16px;
+  }
+  .picture-section h4 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .picture-section h5 {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .icons {
+    font-size: 28px;
+  }
+  .about-me-h1 {
+    width: 146px;
+  }
+  .about-me h1 {
+    font-size: 30px;
+  }
+  .about-me p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .education-h1 {
+    font-size: 30px;
+  }
+  .education-section {
+    margin-top: 20px;
+    padding-right: 0;
+  }
+  .school {
+    padding: 0 5px;
+    justify-content: center;
+  }
+  .degree {
+    font-size: 13px;
+  }
+  .degree .fa-graduation-cap {
+    font-size: 22px;
+    padding-bottom: 5px;
+  }
+  .location {
+    font-size: 11.5px;
+    line-height: 14px;
+  }
+  .skills-h1 {
+    font-size: 30px;
+  }
+  .tech-header.first,
+  .tech-header {
+    font-size: 30px;
+  }
+  .tech-header-line {
+    margin: 0 15px;
+  }
+  .websites-container {
+    margin-top: 30px;
+  }
+  .description-name {
+    font-size: 24px;
+  }
+  .image {
+    width: 70%;
+  }
+  .description {
+    font-size: 20px;
+    line-height: 26px;
+    width: 70%;
+  }
+  .tools {
+    font-size: 16px;
+    padding-bottom: 35px;
+  }
+  .contact-container {
+    padding: 135px 45px;
+  }
+  .contact-box {
+    padding: 40px;
+  }
+  .contact-h1 {
+    font-size: 30px;
+  }
+  .contact-p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .button-div {
+    padding-top: 30px;
+  }
+  .button {
+    width: 75%;
+  }
+}
+@media screen and (max-device-width: 340px) {
+  .header h1 {
+    font-size: 16px;
+  }
+  .header h1 span {
+    font-size: 16px;
+  }
+  .nav h2 {
+    font-size: 12px;
+  }
+  .nav h2 a {
+    padding: 22px 12px 8px 12px;
+  }
+  .picture-section img {
+    height: 100px;
+    width: 100px;
+  }
+  .picture-section h2 {
+    font-size: 22px;
+  }
+  .picture-section h3 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .picture-section h4 {
+    font-size: 11px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+  .picture-section h5 {
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  .icons {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .about-me-h1 {
+    width: 117px;
+  }
+  .about-me h1 {
+    font-size: 24px;
+  }
+  .about-me p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .tech-header.first,
+  .tech-header {
+    font-size: 26px;
+  }
+  .description-name {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .tools {
+    font-size: 13px;
+  }
+  .contact-h1 {
+    font-size: 26px;
+  }
+  .contact-p {
+    font-size: 14px;
+  }
+  .button {
+    font-size: 16px;
+    width: 80%;
+  }
 }
