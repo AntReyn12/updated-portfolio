@@ -499,23 +499,26 @@ a {
 .button-div {
   text-align: center;
   padding-top: 40px;
+  display: flex;
+  justify-content: center;
 }
-.button {
+.button-div p {
+  text-decoration: none;
   font-size: 24px;
-  padding: 20px;
-  width: 25%;
+  padding: 20px 40px;
+  width: 100%;
   color: #a0aecd;
   background-color: transparent;
   border: 2px solid #a0aecd;
   border-radius: 10px;
   cursor: pointer;
 }
-.button:hover {
+.button-div p:hover {
   transform: scale(1.1);
 }
 /* END CONTACT STYLES */
 /* TABLET MEDIA QUERIES */
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-width: 1024px) {
   /* HOMEPAGE */
   .header {
     flex-direction: column;
@@ -639,12 +642,12 @@ a {
     font-size: 20px;
     text-align: center;
   }
-  .button {
+  .button-div p {
     font-size: 20px;
-    padding: 10px;
+    padding: 20px;
   }
 }
-@media screen and (max-device-width: 540px) {
+@media screen and (max-width: 540px) {
   .nav h2 {
     padding: 0;
   }
@@ -707,7 +710,7 @@ a {
     padding-top: 5px;
   }
 }
-@media screen and (max-device-width: 475px) {
+@media screen and (max-width: 475px) {
   body {
     padding: 0;
   }
@@ -825,11 +828,11 @@ a {
   .button-div {
     padding-top: 30px;
   }
-  .button {
-    width: 75%;
+  .button-div p {
+    width: 100%;
   }
 }
-@media screen and (max-device-width: 340px) {
+@media screen and (max-width: 340px) {
   .header h1 {
     font-size: 16px;
   }
