@@ -16,6 +16,10 @@ a {
   color: #a0aecd;
   border-bottom: 3px solid #a0aecd;
 }
+.hidden {
+  display: none;
+  opacity: 0%;
+}
 /* KEYFRAMES */
 @keyframes typing {
   from {
@@ -459,6 +463,23 @@ a {
 .reveal.active {
   transform: translateY(0px);
   opacity: 1;
+}
+.topArrow {
+  position: fixed;
+  right: 50px;
+  bottom: 10px;
+  padding-bottom: 30px;
+  animation: slow-fade 1s ease-in 0.1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.topArrow:hover {
+  transform: scale(1.1);
+}
+.topArrow .fas {
+  cursor: pointer;
+  font-size: 50px;
+  color: #a0aecd;
 }
 /* END PROJECTS STYLES */
 
