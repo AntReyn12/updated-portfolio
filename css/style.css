@@ -237,6 +237,7 @@ a {
 
 /*START SKILLS STYLES */
 #skills {
+  font-family: "Inter";
   width: 100%;
   background-color: #1d1d2c;
   border-radius: 0 0 10px 10px;
@@ -364,6 +365,7 @@ a {
 
 /* START PROJECTS STYLES */
 #projects {
+  font-family: "Inter";
   width: 100%;
   background-color: #1d1d2c;
   display: flex;
@@ -489,6 +491,7 @@ a {
 
 /* START CONTACT STYLES */
 #contact {
+  font-family: "Inter";
   width: 100%;
   background-color: #1d1d2c;
   border-radius: 0 0 10px 10px;
@@ -636,6 +639,9 @@ a {
   .skills {
     width: 300px;
     font-size: 24px;
+  }
+  .skills p {
+    font-size: 16px;
   }
   /* PROJECTS */
   .tech-header.first {
@@ -819,6 +825,9 @@ a {
   .skills-h1 {
     font-size: 30px;
   }
+  .skills p {
+    font-size: 13px;
+  }
   .tech-header.first,
   .tech-header {
     font-size: 30px;
@@ -910,6 +919,9 @@ a {
   .about-me p {
     font-size: 12px;
     line-height: 18px;
+  }
+  .skills p {
+    font-size: 12px;
   }
   .tech-header.first,
   .tech-header {
