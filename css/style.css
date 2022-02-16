@@ -514,6 +514,7 @@ a {
   flex-direction: column;
   justify-content: center;
   padding: 100px;
+  margin: 0 60px;
 }
 .contact-h1 {
   font-size: 50px;
@@ -523,6 +524,8 @@ a {
 }
 .contact-p {
   font-size: 24px;
+  text-align: center;
+  line-height: 26px;
 }
 .button-div {
   text-align: center;
@@ -665,6 +668,7 @@ a {
   }
   .contact-box {
     padding: 50px;
+    margin: 0 20px;
   }
   .contact-h1 {
     font-size: 40px;
@@ -720,6 +724,9 @@ a {
   .skills {
     width: 150px;
     text-align: center;
+  }
+  .contact-box {
+    margin: 0;
   }
   .contact-p {
     line-height: 24px;
